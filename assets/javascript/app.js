@@ -69,49 +69,49 @@ let game = {
     done: function(){
         $.each($("input[name='question-0']:checked"),function() {
             if ($(this).val()==questions[0].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-1']:checked"), function() {
             if ($(this).val()==questions[1].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-2']:checked"), function() {
             if ($(this).val()==questions[2].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-3']:checked"), function() {
             if ($(this).val()==questions[3].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-4']:checked"), function() {
             if ($(this).val()==questions[4].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-5']:checked"), function() {
             if ($(this).val()==questions[5].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-6']:checked"), function() {
             if ($(this).val()==questions[6].correctAnswer) {
-                game.correctAnswer++;
+                game.correct++;
             } else {
                 game.incorrect++;
             }
